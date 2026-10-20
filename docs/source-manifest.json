@@ -1,0 +1,1199 @@
+{
+  "snapshotDate": "2026-10-20",
+  "origin": "Azure production application, release r18",
+  "description": "Files preserved byte-for-byte from the verified source checkout. Documentation and generalized operator examples are recorded separately in PROVENANCE.md.",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "c997ae1c1907c188e184a8ef92057b1af06c258287b1ce40f220e3363fda4729"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b33f16e726bd9b56350d5c549e5b68bd5a6e6548ebcb0559143366b1c3dd4371"
+    },
+    {
+      "path": ".prettierignore",
+      "sha256": "7735cd48bc08e77dcb95913288a3da2ea290d8a2bf8e1c6535a17fb0d56c4f85"
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "85378d4d734cb7d35641c44ffdf322fe0bc76a3b12841927f20aa5f0eba12695"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "63f2c50380ed6303237cce215ce27af1d620d094c215e28d1b1538a3c070e3bb"
+    },
+    {
+      "path": "BUILD_CONTRACT.md",
+      "sha256": "cae797c59625458e2a11c80743d596d67cb31357933b3e53c209239b8f1ea45a"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "deploy/canonical-redirect-rules.json",
+      "sha256": "944a6dd81ac4eda8cc65c978c082cce1dd3fc3933b02910fd90e1c7724023dbf"
+    },
+    {
+      "path": "deploy/eujobs-backup.timer",
+      "sha256": "cd6a7de495b7cfc699079dd8e2c6050aea1eccba6bebe8cca6d45f33da9f4b1f"
+    },
+    {
+      "path": "deploy/eujobs-email.timer",
+      "sha256": "05e2ff52694cf4f9502991efbdf5fb465dbfe485267800fa75b6dfa83a1cb9a3"
+    },
+    {
+      "path": "next-env.d.ts",
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "f926f0bf55db8cf79edbddc351c4fa930b7f872def3185c7bdff9db49c63cf6f"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "690d440a3a2d4de06715f1b71edab6ea50a62263a281e00807f371b58442970c"
+    },
+    {
+      "path": "package.json",
+      "sha256": "a77f021cc6126a3edc97dfe9c382c2139447f14c1096595c522dda473c4a4acd"
+    },
+    {
+      "path": "packages/agent-client/dist/eujobs.mjs",
+      "sha256": "86fea20953cf84e7de973ba03dc366ebb89b3b1e9ad906336749aa74ee59671b"
+    },
+    {
+      "path": "packages/agent-client/package.json",
+      "sha256": "6a955b594aebb9321e783b12c9da876adc059d886589ec41f561180d58b46b4b"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "sha256": "5cf656c3220f4d102d53bfc41d36a255cf52844cd71af4ed7347b572b0d904de"
+    },
+    {
+      "path": "public/icons/icon-192.png",
+      "sha256": "7af50d171100a42203fb1aa05fa77b64ee69af18949f2d09a61ef54c49282199"
+    },
+    {
+      "path": "public/icons/icon-512.png",
+      "sha256": "a40119b2bb7fe9626c56b091f03169116445061d04dee6c8b71f61435e40e263"
+    },
+    {
+      "path": "public/icons/maskable-512.png",
+      "sha256": "f615962cd169e485c0639039aedc4743987d1e24245cd5605d25893b566b724a"
+    },
+    {
+      "path": "scripts/admin.ts",
+      "sha256": "790e0f287dd8403353df35f04e25b75e3f363e2a375711608e5db72c411e3200"
+    },
+    {
+      "path": "scripts/agent-cli.ts",
+      "sha256": "97ad55ae970377df5a94cc0c494648c5d60b237a086d0c7bd76f9b0216e07edb"
+    },
+    {
+      "path": "scripts/ats_adapters.py",
+      "sha256": "8105de1993d6d42b675ccc920aa0d52d18a4009b69b6a3bc27943e2c6f1941b4"
+    },
+    {
+      "path": "scripts/backup.py",
+      "sha256": "e4370c5252a64d186cc7f475aa82d77b272a61e20e4b202871a665d557ebb119"
+    },
+    {
+      "path": "scripts/build-city-copy.py",
+      "sha256": "ab08a7e18ecd302b261cfa3a27a2ec3dc6e7ff60c45a6773e790035bbf1ef9dd"
+    },
+    {
+      "path": "scripts/email-worker.ts",
+      "sha256": "9e759da969aff22ae61cd17443eb952a77568d9e091a69719f7f996674af2456"
+    },
+    {
+      "path": "scripts/enrich-listings.ts",
+      "sha256": "3055ce26ed04cde785405d43f3db056785c1985bb90037274bb3ad45a02529e6"
+    },
+    {
+      "path": "scripts/env.ts",
+      "sha256": "90901abcd783c3a7f27e287f0309c7814bf56b2f647d113f12bee8b6e138dea3"
+    },
+    {
+      "path": "scripts/generate-brand-icons.mjs",
+      "sha256": "d85d60eeba94df24c858089d9b7f27d7cb72183a78b4c2fce26671cacb8a46a7"
+    },
+    {
+      "path": "scripts/import-events.ts",
+      "sha256": "17582ff597e4c00ec712aeea64d955c8897619febed7bc5d7d3f4bd02ecc45f1"
+    },
+    {
+      "path": "scripts/import-listings.ts",
+      "sha256": "c60dc33769d2847774ee43bd878a0178c6924f49b824f602add18a98e5a2bc1f"
+    },
+    {
+      "path": "scripts/seed.ts",
+      "sha256": "f179c40386b9ae6a1750a8d0c53e833c0a77c28ca827696ded32363329031390"
+    },
+    {
+      "path": "src/app/[niche]/page.tsx",
+      "sha256": "2759ada58a8a45ce856f7c532052da7e12b655cbfd792e11e87643eaee4ee466"
+    },
+    {
+      "path": "src/app/about/page.tsx",
+      "sha256": "87008bf05573035d475b20b36541e0114782e2c864c90be3d691d73832575779"
+    },
+    {
+      "path": "src/app/account/page.tsx",
+      "sha256": "25d2cf3d873d5b89b946ef52762c901402ecc9192b00e62317a1a82bbdd5e15b"
+    },
+    {
+      "path": "src/app/admin/layout.tsx",
+      "sha256": "fbfc5de13b7becd57c4e2354376b0a136e026c2a5d58ec60c521e00eef448721"
+    },
+    {
+      "path": "src/app/admin/operations/page.tsx",
+      "sha256": "d99d15df4f3d45739bd3f20e1002707047d238b4422e0111ed40168a1a122b56"
+    },
+    {
+      "path": "src/app/agriculture-food-policy-jobs-brussels/page.tsx",
+      "sha256": "1818ea99e4214468a1d59143f253dd9a080c938586e1ea2334378856036b929d"
+    },
+    {
+      "path": "src/app/alerts/confirm/page.tsx",
+      "sha256": "75275dec85a34fcba6399efd0fd02f6f6af0c12f818fa22515b831ad0eba8629"
+    },
+    {
+      "path": "src/app/alerts/page.tsx",
+      "sha256": "1c75da76e554df0d1fd18e560a04eb25bf942f47e34481d89ccb3cf819605a71"
+    },
+    {
+      "path": "src/app/alerts/unsubscribe/page.tsx",
+      "sha256": "97d815e867e574ee1fdc53f6fcae7cc7f29d11767963eee284615d56e7d52dc6"
+    },
+    {
+      "path": "src/app/amsterdam/page.tsx",
+      "sha256": "0e5a285003ce59a7ec2a3f0ca1422379ec4679c78cd8df407d7156c3784fd165"
+    },
+    {
+      "path": "src/app/api/_shared.ts",
+      "sha256": "01ef4bd116764d97cca97d874b102b257b32c9984ec5258a615395e28ed371b0"
+    },
+    {
+      "path": "src/app/api/account-recovery/route.ts",
+      "sha256": "eef60e8cf26132629cd5faceb125e3edcfe809877ff4fc4293e5842e8c5e5d95"
+    },
+    {
+      "path": "src/app/api/alerts/route.ts",
+      "sha256": "844c231a9d84032ba12efa3cdd92b92ebd265ed22f4e8eb18ee652c558267b8d"
+    },
+    {
+      "path": "src/app/api/auth/route.ts",
+      "sha256": "db469e7f48b3f71b133dcf1818858845a723dcc4a020459b819088df5f625faa"
+    },
+    {
+      "path": "src/app/api/calendar/google/callback/route.ts",
+      "sha256": "1ceaa842a4ec31f4bc5d5e3a8b9df7a08d67f105edec5d65500cd67a44f511b9"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/access/route.ts",
+      "sha256": "4bf421147c4b8f1ed4e5b22b8899a77481b6e2d8152f54d29f8229a14449f260"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/checkout/route.ts",
+      "sha256": "674e0cad09c43275ba9d200b5d18a2d68e717fe50e28164b4ff58aa706499c96"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/download/route.ts",
+      "sha256": "1669c56f4bb0df80be5029503f4bb30812cf7499002cba3b51115c4fa5f606bf"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/feed/route.ts",
+      "sha256": "8abd77725f54322baec47c26b4f2a6e940da8002e022e39e1c811788806063f8"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/google/connect/route.ts",
+      "sha256": "778b3e06465ab797448aa0e6ecbf1183c7eb1ec3c1e35a93c4e84a72b13973f2"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/google/route.ts",
+      "sha256": "df6c06bc21a7c3a6937e115931eaddd64370764ead482db65663b1c9a81fc8c7"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/google/sync/route.ts",
+      "sha256": "2a6614d5496120382a7d7f72876cbfc14b0a09957526c98d5c8bd69500772dc8"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/reconcile/route.ts",
+      "sha256": "92fee5be0b1566afe02cb253ed5e40a11395cc3e3cf00ba2c76142a48e5467f8"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/[id]/route.ts",
+      "sha256": "941accb5139b85662481c17e045306ec4247928755873c3ccb64b1325ae98bc8"
+    },
+    {
+      "path": "src/app/api/calendar-purchases/route.ts",
+      "sha256": "23da5dce45892bc15fb914f682b274058a4c4d5bb33dadfb8aa25916f53c44e6"
+    },
+    {
+      "path": "src/app/api/checkout/route.ts",
+      "sha256": "c19024f979904a1331624c92ec6f3c5e3e627a0bd0d904faf659cca598eae624"
+    },
+    {
+      "path": "src/app/api/contact/route.ts",
+      "sha256": "7f9dd266b12190d36c4fe01c61000dc73b56db0b89b75d25939566299db2ff5e"
+    },
+    {
+      "path": "src/app/api/create-checkout-session/route.ts",
+      "sha256": "a2aed0de470f738a0190e878485fe534d8725f0264411a2e179b6a542d18733a"
+    },
+    {
+      "path": "src/app/api/events/[slug]/calendar/ics.ts",
+      "sha256": "61c27e908569156963e647e79c24af6b6f34b247abefe43e1634779346052461"
+    },
+    {
+      "path": "src/app/api/events/[slug]/calendar/route.ts",
+      "sha256": "b2a3f3ad49fb5a9f45e63cd91be470ede4967889532a08a8a34254f37bf85a7e"
+    },
+    {
+      "path": "src/app/api/feeds/jobs/route.ts",
+      "sha256": "38dc3cf3f44fde69c06e5c0ae30b3837337737d11429fb9b062783379bd51520"
+    },
+    {
+      "path": "src/app/api/guest-jobs/[id]/checkout/route.ts",
+      "sha256": "1d1196cac08e41255637602de08808c31b3b38d472990e34c484080aab76b4a4"
+    },
+    {
+      "path": "src/app/api/guest-jobs/[id]/payment/route.ts",
+      "sha256": "f0d39435be2208c5bf286bef1337278252aa319406915f291b8ddb1f3a5435b1"
+    },
+    {
+      "path": "src/app/api/guest-jobs/[id]/route.ts",
+      "sha256": "698306514c772791aeff771af5e76cad6dae4c34aa2c1fbb21be41fae828764c"
+    },
+    {
+      "path": "src/app/api/guest-jobs/route.ts",
+      "sha256": "381df675434af459bc49061727cd6c766080203cb5a2a02f59347008ad54e2e2"
+    },
+    {
+      "path": "src/app/api/health/operations/route.ts",
+      "sha256": "b614826e6f38e36ff362d7bf7cb98a8a97d7604457e332cfca0eec69bee50216"
+    },
+    {
+      "path": "src/app/api/health/route.ts",
+      "sha256": "06f04e556eb4735de015c7ecbc2d3eef4645bb0dbc564e0d9a608abaee5c1511"
+    },
+    {
+      "path": "src/app/api/job-link-requests/route.ts",
+      "sha256": "3b2ca512a9c064c635bee4fd495b1b4778255eadf22c2de396b3aa857215b66d"
+    },
+    {
+      "path": "src/app/api/listings/[id]/route.ts",
+      "sha256": "8f41b83cb165312b2ba648dec6ef65c6d391433287a37aa395be85a3da7e9f3f"
+    },
+    {
+      "path": "src/app/api/listings/route.ts",
+      "sha256": "fe16a9971ef2b3ca8605b64628cd8e99a044d724d965f785de4527e2335c56f8"
+    },
+    {
+      "path": "src/app/api/newsletter/signup/route.ts",
+      "sha256": "ccd41d0dfc56900665f839c8b51d026f8bc2e65112e6342f52c2c61ac6dc1b38"
+    },
+    {
+      "path": "src/app/api/payments/route.ts",
+      "sha256": "4b8822067dd399adefc9d1f61321479c8ff4440853e83e0416e150e0e3490c75"
+    },
+    {
+      "path": "src/app/api/saved/route.ts",
+      "sha256": "c6e5971501e4a5c47b8a06d3040847909231bb66062db3f18cc57338d9842f1e"
+    },
+    {
+      "path": "src/app/api/searches/route.ts",
+      "sha256": "52c3d6c8df1eb7340d7a64d110ea56e9088c68ccb747b4393692ba38851ebe64"
+    },
+    {
+      "path": "src/app/api/stripe/webhook/route.ts",
+      "sha256": "88581ac46f4106a5f5d5a099e95a1feace7ac97ac2285d7e01aff5569efb602e"
+    },
+    {
+      "path": "src/app/api/v1/events/[id]/route.ts",
+      "sha256": "6e2cc8d557ae4d8887ef8e5b29227efde8666b18561eb55a213f3a19da038f86"
+    },
+    {
+      "path": "src/app/api/v1/events/route.ts",
+      "sha256": "5455b1a7e7795f6b6a14b62e394cfedb794b07d2f0f9a992dc64cf8e710919ec"
+    },
+    {
+      "path": "src/app/api/v1/jobs/[id]/route.ts",
+      "sha256": "5105a75e0dd6ac2b0c38294f747c514d31dbaa3c87ff28f228b6e60496a5bc36"
+    },
+    {
+      "path": "src/app/api/v1/jobs/route.ts",
+      "sha256": "5bbb5addc662f3039e94541de32f3e6705a4fb6f26c4d89c8bbe803504b78a14"
+    },
+    {
+      "path": "src/app/api/v1/openapi.json/route.ts",
+      "sha256": "8c2c29ea7c6f0ee3d6ac25f2a33ea4cf500dc2577b9e8215d512dcdafe3a962c"
+    },
+    {
+      "path": "src/app/api/webhooks/stripe/route.ts",
+      "sha256": "b9bfaf2ec56e4c09257da5792e9e9de3323d4f64750ca7fa0a9a1317cd1bafde"
+    },
+    {
+      "path": "src/app/apple-icon.png",
+      "sha256": "5cf656c3220f4d102d53bfc41d36a255cf52844cd71af4ed7347b572b0d904de"
+    },
+    {
+      "path": "src/app/athens/page.tsx",
+      "sha256": "c2ccd0c52c31619a151986adaa2216770e978e33b364c0732d3dabf90d4f3e89"
+    },
+    {
+      "path": "src/app/auth/layout.tsx",
+      "sha256": "fbfc5de13b7becd57c4e2354376b0a136e026c2a5d58ec60c521e00eef448721"
+    },
+    {
+      "path": "src/app/auth/login/page.tsx",
+      "sha256": "deb7ee9e17e0aa3d884db6a038f02648c91e03bd2cbb172a2f4487ad5cc4a7bc"
+    },
+    {
+      "path": "src/app/auth/page.tsx",
+      "sha256": "67d1703d95cc784964d66ec124a1e95a4e6eef49d0737688b83128c510a132fd"
+    },
+    {
+      "path": "src/app/auth/recovery/page.tsx",
+      "sha256": "1efe45e12f4b07edf4bacb06d25ddf2d063765acb9d53d4c17fa87036917dd03"
+    },
+    {
+      "path": "src/app/auth/register/page.tsx",
+      "sha256": "4e79c97eab39533e406633e75b26b3902078df6c8bd12dce707c79c72616e44c"
+    },
+    {
+      "path": "src/app/auth/verify/page.tsx",
+      "sha256": "1a0ff1e066a61c0b24793bc5351d9285dd78bf7bd442b8794f28776da2a7c34e"
+    },
+    {
+      "path": "src/app/berlin/page.tsx",
+      "sha256": "267d7c90065cf813b964d92dbabec27096df30698d28568e22b89c2a1eb6b84a"
+    },
+    {
+      "path": "src/app/blog/[slug]/page.tsx",
+      "sha256": "b230b4824c674ed7b4668f8d38a5a4dae9e8036479f40605736f181e5a94ad3d"
+    },
+    {
+      "path": "src/app/blog/page.tsx",
+      "sha256": "b157b2dc47db60e7efc27f3251b4367ed2add3ec6891e1c03289dabb96e6ca95"
+    },
+    {
+      "path": "src/app/brussels/page.tsx",
+      "sha256": "75fdc0400ddc2537eb58f9f622c3f081bdc77e59be0f60c0567dd04ce2a6a866"
+    },
+    {
+      "path": "src/app/brussels-best/[[...path]]/page.tsx",
+      "sha256": "ed7a1fb556e73f9eab2d1a035b3cb20e4874ef537e877cfd49724f4e1b691dc1"
+    },
+    {
+      "path": "src/app/budapest/page.tsx",
+      "sha256": "ffeb56aedb3b4e591279c93453c2b76bc2c85711fccc1d08f6cc6a43bec327a8"
+    },
+    {
+      "path": "src/app/calendar-purchases/[id]/page.tsx",
+      "sha256": "3125c70227c2901bd1a919e98486431b5e81ec53d111c548e60527619f87def1"
+    },
+    {
+      "path": "src/app/career-guides/[slug]/page.tsx",
+      "sha256": "a703456107d31e1fa5da783d85085167e6267201fcf05143624f1f046aa5668a"
+    },
+    {
+      "path": "src/app/career-guides/page.tsx",
+      "sha256": "f2b5e18da4b624fe29c6c75bd407d0d9abbe3c99aa7e77b58dac936bae7ba4e0"
+    },
+    {
+      "path": "src/app/categories/[slug]/page.tsx",
+      "sha256": "38afaeb19d149b6f79ef36591a6415e40fad545a845643abc092fc708d876526"
+    },
+    {
+      "path": "src/app/categories/page.tsx",
+      "sha256": "73441efefc8239a54af876e9b676d5c786182c8998ec62d4e47a81df48caefae"
+    },
+    {
+      "path": "src/app/cities/page.tsx",
+      "sha256": "20e149e663a2c4833d6dd83bf1fbaa3adc99d8a4f320caeaaaa440540d157ff4"
+    },
+    {
+      "path": "src/app/communications-jobs-brussels/page.tsx",
+      "sha256": "0602556f856528687dde221d8fd74ecf300bb69a0c4f11db07ed92742fa529b3"
+    },
+    {
+      "path": "src/app/companies/[slug]/page.tsx",
+      "sha256": "283107494c17c1c5ded8fc50cc91d3d53c36a432263f618b71a9d67eb60c824f"
+    },
+    {
+      "path": "src/app/companies/page.tsx",
+      "sha256": "fc965f4dfbebc0d7c4367bab4414bb7a660ae967e48571e7652c6d83e31c18e4"
+    },
+    {
+      "path": "src/app/compare/page.tsx",
+      "sha256": "fc6d64b8ee0e3e93da89be0a1df11f1a7e8af9a3d8cae248bc102b74082361e9"
+    },
+    {
+      "path": "src/app/contact/page.tsx",
+      "sha256": "08d380224f8c914e90b1d985c36f9cd4d910191401e65bfeb85a6fb2469b0045"
+    },
+    {
+      "path": "src/app/copenhagen/page.tsx",
+      "sha256": "9a19a6a7711b9cef1ec7a395bd156e584b5a8f7385d1717362225d8b76bc742c"
+    },
+    {
+      "path": "src/app/developers/route.ts",
+      "sha256": "4423a5cf7691a473193283f9732351358e55bc64af348466838ef6cb536a3eee"
+    },
+    {
+      "path": "src/app/digital-policy-jobs-brussels/page.tsx",
+      "sha256": "3e9d1cc8972ad35201820c9be66efc1cf9c30d4a61755126cb2dae183f2f02de"
+    },
+    {
+      "path": "src/app/dublin/page.tsx",
+      "sha256": "0d463d46b0071608572c73fe62b4c45afcd9cce2b15fcebeba46cc3eb74d6e16"
+    },
+    {
+      "path": "src/app/employers/page.tsx",
+      "sha256": "09e9499e8b3aa301168739384db835f3fef400d869c628614374612a09665386"
+    },
+    {
+      "path": "src/app/energy-policy-jobs-brussels/page.tsx",
+      "sha256": "9ca59da28f006160d7e4de637e5e37ab2d49fc032fed0b506537ec543c6a29f4"
+    },
+    {
+      "path": "src/app/environment-climate-policy-jobs-brussels/page.tsx",
+      "sha256": "492c71a72414ca3564c63d988acfc780b96e88660ee3006f9dce7b5d266ff565"
+    },
+    {
+      "path": "src/app/error.tsx",
+      "sha256": "f47ca4f6ecf196de145a76bbfbd8ee7bc04c74b2e0d557794f9b4070cb1805d0"
+    },
+    {
+      "path": "src/app/eu-affairs-jobs-brussels/page.tsx",
+      "sha256": "e397d61f800756a6e22332841cdaa031e3fc9369161c0520d984da41abc4c6cd"
+    },
+    {
+      "path": "src/app/eu-consultancy-jobs/page.tsx",
+      "sha256": "244ef3086d15eed5538c586622cc4164ff7a24752bb1e39eb46fbe18e9146b14"
+    },
+    {
+      "path": "src/app/eu-funding-project-management-jobs-brussels/page.tsx",
+      "sha256": "2f1faafed5647b3abb92857e2521a4ff7aa088d483071e0d5d3c3844a25681c6"
+    },
+    {
+      "path": "src/app/eu-traineeships-brussels/page.tsx",
+      "sha256": "34f7c187360025b90d59646ed742ff97a4131414124ae9a06efa2876eb729df6"
+    },
+    {
+      "path": "src/app/eurobrussels-alternative/page.tsx",
+      "sha256": "5ec004c04c496d8c5608ccc8c3f2902a7779e823fe9375122204342d9cf7dc38"
+    },
+    {
+      "path": "src/app/events/[slug]/page.tsx",
+      "sha256": "a9bd48b4a870a6adb9696d449fec7fd984d768c30ecc5e0a077c3dcedad1e830"
+    },
+    {
+      "path": "src/app/events/page.tsx",
+      "sha256": "b4b46fdff017fd67d0e84731cad86325317ace4887986c119cb52d264235449f"
+    },
+    {
+      "path": "src/app/fairpay/page.tsx",
+      "sha256": "e030ad2f801fe513cfaeb4283a9d33f16809c304bfe0936eb86b471c0472b0d8"
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "sha256": "8b325e086cd347071acacac238c940f4ad22a4754171f27d79ab755184eef227"
+    },
+    {
+      "path": "src/app/feed.xml/route.ts",
+      "sha256": "2f6dc3b63fc29a727c324087ec472ed538363a95607138a54a8cb8ec0990a391"
+    },
+    {
+      "path": "src/app/financial-services-policy-jobs-brussels/page.tsx",
+      "sha256": "9fda9b6f71dbd879bbcbe537ddbfd0c0afefa18cf579dbdef99ff295f76c1586"
+    },
+    {
+      "path": "src/app/geneva/page.tsx",
+      "sha256": "cca2a961da8f74d10a2a4fa381cd2dc4ffaaf80ca9a6bc3e950391c20be8c694"
+    },
+    {
+      "path": "src/app/global-error.tsx",
+      "sha256": "10611a8047847f9a8ba7500e79da47eac8d16aa0881acf7a08c1508d144108fc"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "4881a3aacba05a92abac6d4ae236dc59eddc3042911f92ef49d02782dece59aa"
+    },
+    {
+      "path": "src/app/health-policy-jobs-brussels/page.tsx",
+      "sha256": "49116926c1b2a91f0d486d7fc0dd975843ff1b836f4fab2b30d84f3e1cd7854e"
+    },
+    {
+      "path": "src/app/help/page.tsx",
+      "sha256": "57e0463a88779a969dc6877c6877aeb3c01280d8d9ec6714933bd5e8a4e2b6c6"
+    },
+    {
+      "path": "src/app/icon.svg",
+      "sha256": "f174c309be3c216aa35a6877ff5d9b25f5a6f24a7e27350b6887d84bde64f197"
+    },
+    {
+      "path": "src/app/job-cancel/page.tsx",
+      "sha256": "5d8d72583a1d16dbe7b698fca4645bacb27a86c4b26b6def8e756ffb44885616"
+    },
+    {
+      "path": "src/app/job-success/page.tsx",
+      "sha256": "94edecced9dd42b3624816fa9adb7a264c8359512472014a190d96e3755a388b"
+    },
+    {
+      "path": "src/app/jobs/[slug]/page.tsx",
+      "sha256": "30ec0d981488d76153ae1441637225f11dc957b48b369258a641c752685fee6d"
+    },
+    {
+      "path": "src/app/jobs/brussels/[segment]/page.tsx",
+      "sha256": "082e4ebb4096181ae531c51590fa2727ee85b1c0768791c42479e27272d8a969"
+    },
+    {
+      "path": "src/app/jobs/page.tsx",
+      "sha256": "92f194060d1d7530ec08b73ebce65b3c070cfb0e6d433d62a27fa54d7b71d229"
+    },
+    {
+      "path": "src/app/jobsin-brussels-alternative/page.tsx",
+      "sha256": "3f96268d6f1df1467a657831d57b139cf47ede5296d5f82c3bd22787c0d8943f"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "ac05c9b6af6178b615593452f2fc23f9b28f0c67c14825f95e55d738956aec47"
+    },
+    {
+      "path": "src/app/lisbon/page.tsx",
+      "sha256": "2d261880d14ed8b045b1321b8f5d0b8b4d3855b2153e10214e1215d9a94a2447"
+    },
+    {
+      "path": "src/app/llms.txt/route.ts",
+      "sha256": "454fea2331e44ebccea5b91c4f256765dd6a38f3a3242d93e349ddb714f01355"
+    },
+    {
+      "path": "src/app/lobbying-entities/[[...path]]/page.tsx",
+      "sha256": "0d005bfd639654a4ef7ce6f91936c32a1aad81b5ec81dd3e87f720534a09414a"
+    },
+    {
+      "path": "src/app/lobbying-events/page.tsx",
+      "sha256": "4c08c42711cc911131f1b4b2c2822569755fc4f7ec5345ae56945a619960cdd2"
+    },
+    {
+      "path": "src/app/london/page.tsx",
+      "sha256": "0815cbe270aa58e58b30404db39a2f1bd715203ddbfb20ea75945d0d892266aa"
+    },
+    {
+      "path": "src/app/luxembourg/page.tsx",
+      "sha256": "dd4e999a1c6fcb17f6b5d290f81adbadb4f3a76752b9ba24adfd12b872459079"
+    },
+    {
+      "path": "src/app/madrid/page.tsx",
+      "sha256": "6cf5789cf1bc493c9a8057dad5dfe7a167f836a685a020e2eb75c86b32995040"
+    },
+    {
+      "path": "src/app/manage-job/[id]/page.tsx",
+      "sha256": "7a889830c09ac0525d5e9d2a594dba33b04194101dfb6903abe994e3f73fdc56"
+    },
+    {
+      "path": "src/app/manifest.ts",
+      "sha256": "87f595a09b646c5c909bea6f9e0ac3fafc0586f7d7f7d3fa896307c25f49a393"
+    },
+    {
+      "path": "src/app/mcp/route.ts",
+      "sha256": "3771bc6f39ec3802abc0fff7228aa42036e7dd78bfe8c39a1078417f5362d487"
+    },
+    {
+      "path": "src/app/milan/page.tsx",
+      "sha256": "0b9ae7667454307d7ab2dd81c3413a285f1d2aa6be5305b0b2188bc3e9428367"
+    },
+    {
+      "path": "src/app/ngo-advocacy-jobs-brussels/page.tsx",
+      "sha256": "ff7729607d4062f124fb0c28ae607899d6c6fecb93f0f25ba1d9da7a553898be"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "sha256": "db91530249356d5e58dd48a76b5adec9563f8a702a2022d66b030f7792150357"
+    },
+    {
+      "path": "src/app/opengraph-image.tsx",
+      "sha256": "4e2e35f0fb4d2324c530f5f738539f05eaf03d588143299ce386c01c20b8523b"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "sha256": "9322749cf255ec4fa34e06260e4ea1320b950070bebc330026f2ee75fb8aa853"
+    },
+    {
+      "path": "src/app/paris/page.tsx",
+      "sha256": "a5d8be4cec7f974f7dfd47ae612623001d39a24f872912698eecf6c0462e2cc4"
+    },
+    {
+      "path": "src/app/policy-advocacy-jobs-brussels/page.tsx",
+      "sha256": "2c1c4868829fdc3aeb2a77b5122381e69923f70d95a20958b84dcff7384d2cca"
+    },
+    {
+      "path": "src/app/prague/page.tsx",
+      "sha256": "be1ace1d394d0db3418c071afc3107077eed6a82735c854c460a61b400d5a518"
+    },
+    {
+      "path": "src/app/pricing/page.tsx",
+      "sha256": "2a1a84fc0c598167e658d65eb2c80ece734f008784b96d44f9e80f9fa58eece9"
+    },
+    {
+      "path": "src/app/privacy/page.tsx",
+      "sha256": "95fa22fea4977e2f683f6eb46c998a8e83896579589be7c7549dc386122c88cd"
+    },
+    {
+      "path": "src/app/refund/page.tsx",
+      "sha256": "1f6cc215c400d58c76769900e035753a107b41670829b2426725fd28c4231eda"
+    },
+    {
+      "path": "src/app/resources.css",
+      "sha256": "5d2866b9e890d843b0e90a3a2252975f4abdda985c7c29ec2d8dfb28c6b6d6e5"
+    },
+    {
+      "path": "src/app/robots.ts",
+      "sha256": "d6750855e1a2e9b11fff50e714f27b4a7b63f7d19c5a5510c1e074ccb8a4f108"
+    },
+    {
+      "path": "src/app/rome/page.tsx",
+      "sha256": "891e4483ffd0a84ed0512dca0c30a9321fdec2aef48786637d4ea521e46dce32"
+    },
+    {
+      "path": "src/app/sitemap.xml/route.ts",
+      "sha256": "2f84e61cd96c3a16d15f0627ff8fe398fb7eee26f50e9673a6517eed92df14ea"
+    },
+    {
+      "path": "src/app/sitemaps/[file]/route.ts",
+      "sha256": "03b6dce086d8f0b0b881d2a42f5c10b0bc3667e0c883e03777fcff94ca858a87"
+    },
+    {
+      "path": "src/app/stockholm/page.tsx",
+      "sha256": "3f8ad235126ef59455dc3ae81e670d63ebdbb50c9d48d16934231848067cf685"
+    },
+    {
+      "path": "src/app/strasbourg/page.tsx",
+      "sha256": "1536db42700ff1deb763021dbcb7dd99c7ddbac790d6d96d965e58f754a71796"
+    },
+    {
+      "path": "src/app/submit/page.tsx",
+      "sha256": "a6650bf9299dcff4af9ca312db2a0d0f1fd75ff7284f12b2585e09d48c59d164"
+    },
+    {
+      "path": "src/app/terms/page.tsx",
+      "sha256": "b44406fc4e06783fd3098aa35654597ad65f13721b83db212f0601ec0a483e60"
+    },
+    {
+      "path": "src/app/the-hague/page.tsx",
+      "sha256": "c3b4739a6e0e58b2a9e14468a93f23feb643f85242876ce5f72e9b069cedff54"
+    },
+    {
+      "path": "src/app/think-tank-jobs-brussels/page.tsx",
+      "sha256": "d93305c975976bbd09e31a5afbb4b0bbd5aea859b6472fca2bb29e85398c6942"
+    },
+    {
+      "path": "src/app/trade-association-jobs-brussels/page.tsx",
+      "sha256": "753b8a18eca2da15b3e07a0226f488907827df42992f21cd202bbf87305e037b"
+    },
+    {
+      "path": "src/app/trade-policy-jobs-brussels/page.tsx",
+      "sha256": "7491d94b931c9f87229c6baf632be65f927c63e5b4b506b962d98db991a30402"
+    },
+    {
+      "path": "src/app/vienna/page.tsx",
+      "sha256": "ec7c329c4fa42b90fab65320a21dbd591b3e3dedaf0ebeeaea82ce04ef3590e7"
+    },
+    {
+      "path": "src/app/warsaw/page.tsx",
+      "sha256": "aa4d1e75e50d1c36df7d7f5e1b4aa4827eb0dd1856e15369a33f001e8d42a4ca"
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "sha256": "1b0cdcf5771bb9e6f310eca8e764618c67bbd7e9ec268bf4f5e16618c6acbd72"
+    },
+    {
+      "path": "src/components/AccountSecurity.tsx",
+      "sha256": "406bb70a9180338f2544abcc8ab48c55b7417a0b61b51396b3c06208f09cf80f"
+    },
+    {
+      "path": "src/components/AlertForm.tsx",
+      "sha256": "84c908eb78c1d9343a7737be47dc5b608f2cf01893a98b3ac1cf6f8d6e6ace6d"
+    },
+    {
+      "path": "src/components/AuthForm.tsx",
+      "sha256": "f2439dde5ed393fc0735d813ba5ae1226760fabff6005398288cfe9a076c01aa"
+    },
+    {
+      "path": "src/components/BillingPanel.tsx",
+      "sha256": "0ca835c8c1d99092cbbde2c7ca8dffc533adad4ff2fb2eb09f42befeea2743fc"
+    },
+    {
+      "path": "src/components/BrusselsIllustration.tsx",
+      "sha256": "ba2fe3d03628a94f43c9b57a75e0ef93e6b8a9717452c362198e70433ee9cf37"
+    },
+    {
+      "path": "src/components/CalendarPurchaseManager.tsx",
+      "sha256": "e375b62e6b13b155778705df26d26963f06cd475425dc4d6f3785d975114b726"
+    },
+    {
+      "path": "src/components/CheckoutStatus.tsx",
+      "sha256": "cd8403d2d8e20662291ffe588cb1e861950c0dd825bb38fd1889f3f2f0ec046d"
+    },
+    {
+      "path": "src/components/CityLandingPage.tsx",
+      "sha256": "85b05965968fa88d013a169dde6e189ba3bc7c17564ea974c6fe881450e81a1e"
+    },
+    {
+      "path": "src/components/CityPageView.tsx",
+      "sha256": "28efc93a0a90407e7106862faf90926a09b6f115eb59b880e324aa2ef098e9fa"
+    },
+    {
+      "path": "src/components/CompareTable.tsx",
+      "sha256": "c46a3de51afb1bba786ebc6867558a629546f90f36cd93776125433891729150"
+    },
+    {
+      "path": "src/components/ContactForm.tsx",
+      "sha256": "86d85275272d1ddf8b2fd352126875c297ce9548c6238d55bb3b4296b2b77de1"
+    },
+    {
+      "path": "src/components/DetailActions.tsx",
+      "sha256": "e8480e4b9bbb4460edf760b5464fd190e46e525a8891b503ff0c9d9c79e1bc59"
+    },
+    {
+      "path": "src/components/DiscoverySearch.tsx",
+      "sha256": "7e851712376f78a5acdb6888483f22548d3534e699d2fc3c9180fd4eccb60dad"
+    },
+    {
+      "path": "src/components/EmailTokenAction.tsx",
+      "sha256": "817f9f735ea040dcc8d7bd28b44a873ac3a2d804b5a85ad696e87871c385dc22"
+    },
+    {
+      "path": "src/components/EventCalendar.tsx",
+      "sha256": "9bb4e3b0a7d71549631d614f3c0a617d66c398d2919afc452e22bbd901b686c7"
+    },
+    {
+      "path": "src/components/FairPayCalculator.tsx",
+      "sha256": "972b1c31b1cf0a0e82980fcf750a9921f6661c5389e38ea6fa3550dc0db1c1e3"
+    },
+    {
+      "path": "src/components/FilterPanel.tsx",
+      "sha256": "1d0fb7ad2459f4072524d839b4e4e3b8ae6423e8bbaa5fd9af66053b8056df85"
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "sha256": "8e0cb420d030eebb05268e771bc738826debf18afc8e7ea28c590a1846c048f1"
+    },
+    {
+      "path": "src/components/GuestJobManager.tsx",
+      "sha256": "80024e63eb915ea22fa2d95a30416eea3550108e978ba6415732e1e05926abaf"
+    },
+    {
+      "path": "src/components/Header.tsx",
+      "sha256": "18188ce460c6a9f347fca4735fe4318cc5dc92763060420b52bcd9005b44f82b"
+    },
+    {
+      "path": "src/components/JobLinkRequest.tsx",
+      "sha256": "c99233c2f294b5e0f938c03ed1c1687084b3fe29afb1d2ef5ab32608c51af3dc"
+    },
+    {
+      "path": "src/components/LaunchBanner.tsx",
+      "sha256": "316f2216d14394701536f6790985141bdfb098e3420e6c020cebff9dd57a0f63"
+    },
+    {
+      "path": "src/components/ListingCard.tsx",
+      "sha256": "a4c96e6dd7a8676dfbb98dfb21075a697420f195c5a027f88591623d5968735c"
+    },
+    {
+      "path": "src/components/ListingContent.tsx",
+      "sha256": "f9b047f9cb0ef9b859c138686cb80cdcf114e62ba406d2db0b8ad72f4e7ead17"
+    },
+    {
+      "path": "src/components/ListingDetail.tsx",
+      "sha256": "b308d8b2e0f850fa85d08734d9052c29232b4c0497ffe3181a955c2560954609"
+    },
+    {
+      "path": "src/components/MonthlyCalendarOffer.tsx",
+      "sha256": "158599c51c54f16d3132871f9807049fc83f6b0cc22ebc7cbf1e85be583db288"
+    },
+    {
+      "path": "src/components/NewsletterSignup.tsx",
+      "sha256": "b1d98c670e3de33d36d3eb40f59586ceec2d84b4460cf58d820f14dc45c974ac"
+    },
+    {
+      "path": "src/components/RecoveryForm.tsx",
+      "sha256": "c09c2b4ab2a0cfe2bc67dd9330ba65c64f086ee1a0c9049966467b3e54f049bc"
+    },
+    {
+      "path": "src/components/ResourceUI.tsx",
+      "sha256": "7d7e53f84c99cebe3a98ce3a746eb0956bcd6e16ddc93f42ab2d65b200415753"
+    },
+    {
+      "path": "src/components/SaveButton.tsx",
+      "sha256": "39d3906fea79a3a0d061612183d2d1e1e3bcd25fcaedeb769d6ae68eaa0d1553"
+    },
+    {
+      "path": "src/components/SaveSearchButton.tsx",
+      "sha256": "cd37a1301b184982de84c49284919e56bb3136a5a93b0106e4133544f4d86195"
+    },
+    {
+      "path": "src/components/SavedProvider.tsx",
+      "sha256": "ebc4a303a760b8b06d2171eb08bab6cfacd59f09c43943ae1f846068f07d004c"
+    },
+    {
+      "path": "src/components/SearchResults.tsx",
+      "sha256": "88f5855f7da8ef69836ce68c1b6772a6e2d3fd1ea4992c64704235f366811021"
+    },
+    {
+      "path": "src/components/SeoLandingPage.tsx",
+      "sha256": "0219871360eba2482331a1dc2582829e9e15724196989f3af3f588287dcfa1aa"
+    },
+    {
+      "path": "src/components/SortControl.tsx",
+      "sha256": "c57311c28530f37d331ed32ed1938ec032bbb348d8cdca8af0c37c8014457336"
+    },
+    {
+      "path": "src/components/SubmissionForm.tsx",
+      "sha256": "6da9b301ae9101fd67a2f7d1c410ab373e51ffe632ded9f8815d7ea417c53de9"
+    },
+    {
+      "path": "src/components/ThemeToggle.tsx",
+      "sha256": "49de05cea36602dd216074333061fb38d2d69e73c2c37305b6ec3af0cd5792f7"
+    },
+    {
+      "path": "src/components/TrackClicks.tsx",
+      "sha256": "a83de8133faa3e73b9b1e8805c7d493efa9baa1f4dd7267b0cf44a046417a849"
+    },
+    {
+      "path": "src/components/TrackSearch.tsx",
+      "sha256": "c1359c4b1d7e53b12d128390be018b4393f30d6753d7a04edd7f265fc0ae9920"
+    },
+    {
+      "path": "src/components/TrackView.tsx",
+      "sha256": "f5364082c799a6ca87e4518f64ad375f2a423f7e6b6b34b5bffdc2aece5c778b"
+    },
+    {
+      "path": "src/components/billing.css",
+      "sha256": "5aacb0db519147604e0f074c43237db5ab7937e3616bb91ad2b47a95b11d162e"
+    },
+    {
+      "path": "src/components/flows.css",
+      "sha256": "3e0249bbe6dd639c57c89f263cc4139b2efe62a479d10213883597aa8d670dfe"
+    },
+    {
+      "path": "src/components/monthly-calendar.css",
+      "sha256": "c7c885dc189aee9ec0a5eda878fd00d6ce0281b274de3fba17d28a60c6ecb00b"
+    },
+    {
+      "path": "src/content/blog/Competency-Based-CVs-&-Cover-Letters-for-EU-Jobs:-A-Practical-Guide.md",
+      "sha256": "6f1a4951a66de1ff98e3a9409439f61a4bbf1c0da428ce5254635a814b3e2d2c"
+    },
+    {
+      "path": "src/content/blog/Green-Jobs-in-Europe.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/content/blog/How-to-Win-the-2025-European-Job-Market.md",
+      "sha256": "c7470d04369734f9f2905d5880819ae5a17b56bfe4d80a80e2c0e8875b9d6de4"
+    },
+    {
+      "path": "src/content/blog/best-university-for-eujobs.md",
+      "sha256": "dbeaaf00d8b5f3b7679f3bb8aeb2671a982c3db8390c36cdb0130838e718142c"
+    },
+    {
+      "path": "src/content/blog/can-i-work-in-brussels-with-english.md",
+      "sha256": "f89f45b1ed84f0a1e5d7547297c3d0d352e9367097232ff2fe32dd28a1d3e769"
+    },
+    {
+      "path": "src/content/blog/coolest-european-union-jobs.md",
+      "sha256": "b3be02420fb6eb6571e67ef9c145429d5512cbb9bd91dda518145987889cbe08"
+    },
+    {
+      "path": "src/content/blog/eu-policy-legislation-careers-guide.md",
+      "sha256": "ec9e94fa02609d830936e732c8ac49cbd75cd900391754eba5eaeba67e9fe080"
+    },
+    {
+      "path": "src/content/blog/eurobrussels-how-brussels-became-eu-capital.md",
+      "sha256": "31d78baa3c7b967f75591add6645eba1fdb1adee072d25e53a801a21609826a5"
+    },
+    {
+      "path": "src/content/blog/eurobubble-eu-jobs-brussels-local-divide.md",
+      "sha256": "ca394c16811c1f8d2b279396b6259937254bc45c9d6604d55233e247a026acde"
+    },
+    {
+      "path": "src/content/blog/how-easy-is-it-to-get-a-job-in-brussels.md",
+      "sha256": "14fffe5ffeefe64522ed0159b8bd8e31284a18f1e417a4fc1b79bfcfac81de1a"
+    },
+    {
+      "path": "src/content/blog/lesser-known-eu-job-opportunities.md",
+      "sha256": "129d8101dd85c6dadd18b5ec6220c7ee8614f3d908988ac9dc341d02b35a91d6"
+    },
+    {
+      "path": "src/content/blog/minimum-salary-in-brussels.md",
+      "sha256": "5d952a3550c4c9edfde9d3c9ade6abddff3a92c624b4fbc8629ee9ba08928786"
+    },
+    {
+      "path": "src/content/blog/types-of-eu-job-vacancies.md",
+      "sha256": "c237625a12c319109aba8e193c2e119bb255d2dd0a332fc891e0fa0468258778"
+    },
+    {
+      "path": "src/content/blog/un-jobs-in-brussels-niche-opportunities.md",
+      "sha256": "1c6a8d6b9fa34d7486fcf96ed01a7f01b920646f4a69fd09225d2d512000dd17"
+    },
+    {
+      "path": "src/content/blog/what-is-a-good-salary-in-brussels.md",
+      "sha256": "8cd8858c9c20f47ec2e7ebd983ff7ce6c263fecbc8cfd0ce762881570bda651d"
+    },
+    {
+      "path": "src/content/blog/your-first-internship-in-eu-institutions.md",
+      "sha256": "1da2cb86ce605f5e2c4eb8fd84a220c6e62db6d30f016caebbcfa5a2805376b8"
+    },
+    {
+      "path": "src/data/city-pages.json",
+      "sha256": "9b044fcd79406861519326b9239ae860731eb35cf4e4555cd12bda5736ce4c3a"
+    },
+    {
+      "path": "src/lib/account-tokens.ts",
+      "sha256": "0d3ac3e70657be987ce9bef50731fd1932d00ac482d16252731ebb3bb0897a68"
+    },
+    {
+      "path": "src/lib/agents/client.ts",
+      "sha256": "cd56eb9e76ff1c659afc8fb54dbdc25b1905078d3225682cbe0bbb07c6b7a2d9"
+    },
+    {
+      "path": "src/lib/agents/contract.ts",
+      "sha256": "eb3ce6d2990708d30b810e4b56b8011c5448a4833aa67a7f1feaff573ecfcf0c"
+    },
+    {
+      "path": "src/lib/agents/docs.ts",
+      "sha256": "087117908a01319427f9d4711d82b3e8afc04d3ed478c27b8b2375a18cc33d5a"
+    },
+    {
+      "path": "src/lib/agents/http.ts",
+      "sha256": "261edacf4d5adf6d220ca6cf15d1e6ad6ac471b051980c6db01b922968934cef"
+    },
+    {
+      "path": "src/lib/agents/mcp.ts",
+      "sha256": "20e13bcdf5ffafde20e053821b41c8a06f88613c419dbbe95787261330dae6e5"
+    },
+    {
+      "path": "src/lib/agents/openapi.ts",
+      "sha256": "ca542213c39c70806fe0be40714fd89d4d1185a5ddfbdb2d4c2d9e69677448c6"
+    },
+    {
+      "path": "src/lib/agents/service.ts",
+      "sha256": "b8625c78fe27da339c178f6e8ee184e486281eb83e7394d65710783055916252"
+    },
+    {
+      "path": "src/lib/alerts.ts",
+      "sha256": "2587c5589cf5c83068f310b415f282d4d449780c70bbf122ee9000016b4d0275"
+    },
+    {
+      "path": "src/lib/analytics.ts",
+      "sha256": "3b406020fe2149151c9ebaa0d5e3b2c59ad7555d183f4be7fb984c8aba57d970"
+    },
+    {
+      "path": "src/lib/auth.ts",
+      "sha256": "43e82f522ee1e1794d8f7f3c8d018905de38d85a2888e79f9977d34624608f64"
+    },
+    {
+      "path": "src/lib/billing.ts",
+      "sha256": "050fe5832739cc222da69a72eef92f694c0bff58676e8d47088ef2c478b2b47c"
+    },
+    {
+      "path": "src/lib/calendar-billing.ts",
+      "sha256": "9b9d1a6558d79b33f87ba736e09c21cd2bbbd67b2196201b141a422a11dbfc87"
+    },
+    {
+      "path": "src/lib/categories.ts",
+      "sha256": "c97c78cb280e4f820e38097748c61e28f23cdf7f4e9a74f2325b3f0a7843d4a0"
+    },
+    {
+      "path": "src/lib/city-pages.ts",
+      "sha256": "c9326ed717839e860b6bbb81553cc9bf9359b2cf94156fe90990237606eb79a9"
+    },
+    {
+      "path": "src/lib/competitors.ts",
+      "sha256": "9790961a68764b869c666bd8b0cab133bdfa01e69f51f06edeb76b5b582d571d"
+    },
+    {
+      "path": "src/lib/email.ts",
+      "sha256": "6a9bc25f67dfe38878b9dda908bc515f749aee5595fbf8b35cd62d25bb197600"
+    },
+    {
+      "path": "src/lib/form-helpers.ts",
+      "sha256": "7155140767507017c0ce95cb3ca9ffc581c39ae2bc02516a65adca79816ff29b"
+    },
+    {
+      "path": "src/lib/google-calendar.ts",
+      "sha256": "af4f1f96e14564223f929df9f84def868f5f05dd2ab13d62cd0c398d2b7f4f8f"
+    },
+    {
+      "path": "src/lib/guest-posting.ts",
+      "sha256": "d463312e775eecf6ef481c4767fc7eb7abe113ab9a1e4d2455b349e2fefa38f3"
+    },
+    {
+      "path": "src/lib/job-link-requests.ts",
+      "sha256": "38a28066a91bf8400a27d5a08fc886d70d99cefb1a42415f2e7fb39560d7b928"
+    },
+    {
+      "path": "src/lib/landing-pages.ts",
+      "sha256": "bebd1447c576e90aa9b8d82dde01e8f9e187d7d7599d764fca02721bb2e715a9"
+    },
+    {
+      "path": "src/lib/listing-source.ts",
+      "sha256": "1c7db847e7c5160494c0d66b44449e60747198bf77f86749320dafb8dde700ff"
+    },
+    {
+      "path": "src/lib/monthly-calendar-shared.ts",
+      "sha256": "637b22298ebb3071f16043f07ae7bd7f728cdb1da7f7f118d0951139697e3541"
+    },
+    {
+      "path": "src/lib/monthly-calendar.ts",
+      "sha256": "a212f0d51c22b1b243a1f8f34767610d0fb114a939dcbe957e53ae901ad7eca6"
+    },
+    {
+      "path": "src/lib/niches.ts",
+      "sha256": "4bdcc9bb0f1fe5f0e9c30123029f8b9a34f731457b66304b7f0c5fbfe21f6df8"
+    },
+    {
+      "path": "src/lib/offers.ts",
+      "sha256": "a95c043f7ac846fa93a2a27fa19c4af9b1669be64c6492fed2314b6789ff5623"
+    },
+    {
+      "path": "src/lib/page-metadata.ts",
+      "sha256": "dd73dcc3440bcd079eaf5739ad078c277adca07c9e89ca0964fe303ddb34ee06"
+    },
+    {
+      "path": "src/lib/plans.ts",
+      "sha256": "cc3d7a47d196c6d964dce3bd1c4ddb2991fd6a49b440ac8e36162b3a1d1cca79"
+    },
+    {
+      "path": "src/lib/resources.ts",
+      "sha256": "8ba7d014a63681affd7b0927d428fc546fba37dc8445ffc8dc18e4da69e08abf"
+    },
+    {
+      "path": "src/lib/search-params.ts",
+      "sha256": "77d8ca664fec918ea6679808786104ede433c9ed65e862366d1f476546e15a65"
+    },
+    {
+      "path": "src/lib/seed.ts",
+      "sha256": "1fc600bc58ea347b59c3343d907e80e8f167467efefb267e3a8fd1c2f8667d86"
+    },
+    {
+      "path": "src/lib/seo-landings.ts",
+      "sha256": "213b54e407269879abd2711af080db2459cdef65de4cd110dfa1c8787f38a4af"
+    },
+    {
+      "path": "src/lib/sitemaps.ts",
+      "sha256": "f0fb6a87437d81c34cb95cb282ee6a693bbd7bc187f5461fe5ba71cacc3b0c8f"
+    },
+    {
+      "path": "src/lib/store.ts",
+      "sha256": "551a1b3d3e340536d742a699577074bf06e9a235797075db5fff68fc2ea3a42b"
+    },
+    {
+      "path": "src/lib/track.ts",
+      "sha256": "090aa47ca48f7e9fdce718796968d7abb598e3b7db6614962fcbf08032b38052"
+    },
+    {
+      "path": "src/lib/types.ts",
+      "sha256": "b92ee68926360c1dbb69a481870bba75386124616e0dd940044216122144946e"
+    },
+    {
+      "path": "src/lib/xml.ts",
+      "sha256": "526a9dc8a4274f44b16dd3b13fe36d4050b86b2dab1bcb1f30a7291d83c309a1"
+    },
+    {
+      "path": "tests/agents.test.ts",
+      "sha256": "999c29f07bc7b90a4e37af6691903a907359dfe93e657080e0016aae97a629fa"
+    },
+    {
+      "path": "tests/api-auth.test.ts",
+      "sha256": "cc4e77548b9e8dd9684c2516a84f02e59fd233367538647d60abd7bdfb97e293"
+    },
+    {
+      "path": "tests/billing.test.ts",
+      "sha256": "bb2ac7c6a6fb8b0c0a37c8a2cd72ef360cf647735b4caef1e0dce9e872eeac2c"
+    },
+    {
+      "path": "tests/calendar-billing.test.ts",
+      "sha256": "a1e1b240fcc7cb216fd8fe148e7e4d18114e959f5f1bb5e4a162bc3331019125"
+    },
+    {
+      "path": "tests/editorial-enrichment.test.ts",
+      "sha256": "47e5d4f4034367e92228663baa58398f29a0c4d35d1fec1d76c6d9bd917199a4"
+    },
+    {
+      "path": "tests/editorial-import.test.ts",
+      "sha256": "28902f3ad909829e7535ed11b403c846fdf7baa116fc3cc9c1660cd17c3ccd95"
+    },
+    {
+      "path": "tests/email-alerts.test.ts",
+      "sha256": "cda8eac3fbcd5b1bdcb61cb8d882e688148f471cfbdcd929c5c7c34a381ea5d4"
+    },
+    {
+      "path": "tests/event-calendar.test.ts",
+      "sha256": "18fc0bbc3de949ace10bb861a4b53cf943da6f61ea1a9bed427ecd0bff50e464"
+    },
+    {
+      "path": "tests/fixtures/calendar-stripe.ts",
+      "sha256": "44a7cb0e0b5b52687bdcb4bedb0ead23f38cfcf882e8566c0c58a1688cdca105"
+    },
+    {
+      "path": "tests/google-calendar.test.ts",
+      "sha256": "a10de4ffa84470ea71e2a72a2537414b4089d00bd02e550c2ef774d2d15c9723"
+    },
+    {
+      "path": "tests/guest-auth.test.ts",
+      "sha256": "83f8a2a00c7cb9ef3a57ee7e2d05ce594abc72a5b914c58115a3e9fc56617d99"
+    },
+    {
+      "path": "tests/guest-posting.test.ts",
+      "sha256": "5dab56962953c53938879597c4a472f15cbf345db591cfcbc91de1d347e3f77c"
+    },
+    {
+      "path": "tests/listing-content.test.ts",
+      "sha256": "aa0616796bccf21380a2c39eb515571a8f8a858402ca1399a7091e5e39050a92"
+    },
+    {
+      "path": "tests/monthly-calendar-ui.test.ts",
+      "sha256": "67e5099ab3114d50d0926637ed95cd6b76f7dfca95e430b3f809f54b57182b26"
+    },
+    {
+      "path": "tests/monthly-calendar.test.ts",
+      "sha256": "f9534b2741d77077b794b8c38b874a7774ad8a960e905e6ae8f1161edb403593"
+    },
+    {
+      "path": "tests/organizer-events.test.ts",
+      "sha256": "e6b9cfb13f26440585f36005c48cb8d130b6766f61685acdee4f0e75cb766a76"
+    },
+    {
+      "path": "tests/r14-funnel.test.ts",
+      "sha256": "03b01af038c2976c552a4a8fe67765cb123b5cf8c7a297908eec883bd5dc9e75"
+    },
+    {
+      "path": "tests/r15-copy.test.ts",
+      "sha256": "f61d8f63359431ebe27085ce1af0418d317a92742f85a9824bfbd14cf3b54d30"
+    },
+    {
+      "path": "tests/r16-checkout.test.ts",
+      "sha256": "6747c9842049bc5fb950ade1671ea847427f3df560fe736509c862d5e9a792bd"
+    },
+    {
+      "path": "tests/r17-checkout.test.ts",
+      "sha256": "55d40a3deb33fbdd4a97a1d5705ff850113f05cdecca579150c744f481c1275b"
+    },
+    {
+      "path": "tests/resources.test.ts",
+      "sha256": "0f10993a1b913d0f325bbd289f74d4955c49d0c5321dba0e6809b1476881175e"
+    },
+    {
+      "path": "tests/store.test.ts",
+      "sha256": "b41e202426d2440b686c85343fec7bd0273915f90d5614436bf00882426a06f6"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "cd135d962f151d8ee7a5042d186216d01b1402ced44f694448c8ceb97e3e3574"
+    }
+  ]
+}

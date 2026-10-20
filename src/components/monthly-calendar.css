@@ -1,0 +1,273 @@
+.monthly-calendar-offer {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) minmax(250px, 0.85fr);
+  gap: 10px 18px;
+  padding: 26px;
+  margin-bottom: 28px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper);
+}
+.monthly-calendar-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #cbd8c4;
+  border-radius: 10px;
+  color: var(--green);
+}
+.monthly-calendar-copy .eyebrow {
+  font-size: 10px;
+  margin-bottom: 9px;
+}
+.monthly-calendar-copy h2 {
+  font-size: 25px;
+  margin: 0 0 12px;
+}
+.monthly-calendar-copy p {
+  line-height: 1.65;
+  margin-bottom: 10px;
+  color: var(--muted);
+}
+.monthly-calendar-copy .monthly-calendar-small {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--green);
+  margin-bottom: 0;
+}
+.monthly-calendar-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 8px;
+  min-width: 0;
+}
+.monthly-calendar-controls label {
+  font-size: 12px;
+  font-weight: 600;
+}
+.monthly-calendar-controls select,
+.monthly-calendar-controls input,
+.calendar-feed-panel input,
+.calendar-private-link input {
+  min-width: 0;
+  width: 100%;
+  padding: 11px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 16px;
+  min-height: 46px;
+}
+.monthly-calendar-selection {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--green);
+}
+.monthly-calendar-controls .button,
+.calendar-purchase-card .button {
+  white-space: normal;
+  min-height: 44px;
+  justify-content: center;
+}
+.monthly-calendar-offer .monthly-calendar-fineprint {
+  grid-column: 2 / -1;
+  margin: 8px 0 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.monthly-calendar-error {
+  grid-column: 1 / -1;
+  background: #fff3ed;
+  border: 1px solid #ecd0c3;
+  border-radius: 7px;
+  color: #8f382d;
+  padding: 12px 15px;
+  margin: 10px 0 0;
+}
+.monthly-calendar-recovery {
+  grid-column: 1 / -1;
+  text-decoration: underline;
+  color: var(--green);
+  font-weight: 600;
+}
+.calendar-purchase-page {
+  padding-top: 55px;
+  padding-bottom: 80px;
+  max-width: 840px;
+}
+.calendar-purchase-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 36px;
+}
+.calendar-purchase-card h1 {
+  font-size: clamp(29px, 5vw, 42px);
+  font-weight: 500;
+  margin: 12px 0 18px;
+}
+.calendar-purchase-card h2 {
+  font-size: 22px;
+  margin: 30px 0 18px;
+}
+.calendar-purchase-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding: 18px 0;
+  margin: 20px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: var(--green);
+}
+.calendar-purchase-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0;
+}
+.calendar-purchase-actions .button {
+  white-space: normal;
+}
+.calendar-purchase-notice {
+  padding: 13px 16px;
+  border-radius: 7px;
+  background: var(--sage);
+  color: var(--green);
+  margin: 18px 0;
+}
+.calendar-purchase-instructions {
+  margin: 0;
+  padding-left: 22px;
+  color: #52685b;
+}
+.calendar-purchase-instructions li {
+  margin: 12px 0;
+  padding-left: 5px;
+}
+.calendar-purchase-small {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.calendar-purchase-card a:not(.button) {
+  text-decoration: underline;
+  color: var(--green);
+}
+.calendar-purchase-card > p,
+.calendar-provider p,
+.calendar-feed-panel p {
+  line-height: 1.7;
+}
+.calendar-provider-grid {
+  display: grid;
+  gap: 18px;
+}
+.calendar-provider,
+.calendar-feed-panel {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 22px;
+}
+.calendar-provider h3,
+.calendar-feed-panel h3 {
+  font-size: 19px;
+  margin: 0 0 12px;
+}
+.calendar-provider a:not(.button) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.calendar-feed-panel {
+  margin-top: 18px;
+}
+.calendar-feed-panel label,
+.calendar-private-link label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 12px 0 8px;
+}
+.calendar-feed-panel input,
+.calendar-private-link input {
+  margin-bottom: 12px;
+}
+.monthly-calendar-controls :is(input, select, button):focus-visible,
+.calendar-purchase-card :is(input, button, a):focus-visible {
+  outline: 3px solid #8cac56;
+  outline-offset: 3px;
+}
+html[data-theme='dark'] .monthly-calendar-error {
+  background: #3f2926;
+  border-color: #785047;
+  color: #f4c6bb;
+}
+html[data-theme='dark'] .calendar-purchase-notice {
+  background: #243b31;
+  color: #dce6d1;
+}
+@media (max-width: 1000px) {
+  .monthly-calendar-offer {
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+  .monthly-calendar-controls {
+    grid-column: 2;
+    margin-top: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .monthly-calendar-offer {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 22px;
+    gap: 14px;
+  }
+  .monthly-calendar-controls,
+  .monthly-calendar-offer .monthly-calendar-fineprint {
+    grid-column: 1;
+  }
+  .monthly-calendar-offer:not(.is-expanded) {
+    padding: 16px;
+    gap: 8px;
+  }
+  .monthly-calendar-offer:not(.is-expanded) .monthly-calendar-icon,
+  .monthly-calendar-offer:not(.is-expanded) .eyebrow {
+    display: none;
+  }
+  .monthly-calendar-offer:not(.is-expanded) h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 7px;
+  }
+  .monthly-calendar-offer:not(.is-expanded) .monthly-calendar-copy p {
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .monthly-calendar-offer:not(.is-expanded) .monthly-calendar-controls {
+    margin-top: 0;
+  }
+  .calendar-purchase-card {
+    padding: 20px;
+  }
+  .calendar-provider,
+  .calendar-feed-panel {
+    padding: 16px;
+  }
+  .calendar-purchase-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .calendar-purchase-card .button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=EUJobs consented alerts and email queue
+After=network-online.target
+RequiresMountsFor=/srv/eujobs
+
+[Service]
+Type=oneshot
+User=eujobs
+WorkingDirectory=/srv/eujobs/current
+EnvironmentFile=/srv/eujobs/shared/runtime.env
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node node_modules/tsx/dist/cli.mjs scripts/email-worker.ts --run
+NoNewPrivileges=true
+PrivateTmp=true
+UMask=0077

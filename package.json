@@ -1,0 +1,45 @@
+{
+  "name": "eujobs-platform",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3210",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3210",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run agent:build && tsx --test tests/*.test.ts",
+    "seed": "tsx scripts/seed.ts",
+    "admin": "tsx scripts/admin.ts",
+    "format": "prettier --write src scripts tests *.json *.ts",
+    "format:check": "prettier --check src scripts tests *.json *.ts",
+    "import:listings": "tsx scripts/import-listings.ts",
+    "import:events": "tsx scripts/import-events.ts",
+    "enrich:listings": "tsx scripts/enrich-listings.ts",
+    "email:worker": "tsx scripts/email-worker.ts",
+    "verify": "npm test && npm run typecheck && npm run build",
+    "eujobs": "tsx scripts/agent-cli.ts",
+    "agent:build": "esbuild scripts/agent-cli.ts --bundle --platform=node --format=esm --packages=external --outfile=packages/agent-client/dist/eujobs.mjs --banner:js=\"#!/usr/bin/env node\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@next/env": "16.3.8",
+    "lucide-react": "1.49.0",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "stripe": "^20.3.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "esbuild": "0.28.2",
+    "prettier": "3.9.9",
+    "tsx": "4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

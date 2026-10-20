@@ -1,0 +1,9 @@
+[Unit]
+Description=Verified EUJobs SQLite backup
+RequiresMountsFor=/srv/eujobs /srv/backups
+
+[Service]
+Type=oneshot
+User=eujobs
+UMask=0077
+ExecStart=/usr/bin/python3 /srv/eujobs/current/scripts/backup.py /srv/eujobs/db /srv/backups/eujobs

@@ -1,0 +1,19 @@
+node_modules/
+.next/
+/data/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+.DS_Store
+*.log
+*.sqlite
+*.sqlite-*
+
+# Private operational artifacts and distributable archives
+/backups/
+/_inputs/
+/work/
+*.tgz
+*.bundle

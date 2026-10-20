@@ -1,0 +1,18 @@
+[
+  {
+    "ref": "eujobs_canonical_https",
+    "description": "Use the secure EUJobs canonical host while preserving paths and query strings",
+    "expression": "(http.host eq \"www.eujobs.co\") or (http.host eq \"eujobs.co\" and not ssl)",
+    "action": "redirect",
+    "enabled": true,
+    "action_parameters": {
+      "from_value": {
+        "status_code": 308,
+        "target_url": {
+          "expression": "concat(\"https://eujobs.co\", http.request.uri.path)"
+        },
+        "preserve_query_string": true
+      }
+    }
+  }
+]
