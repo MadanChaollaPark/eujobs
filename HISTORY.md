@@ -4,6 +4,21 @@ EUJobs has evolved through multiple implementations. The source in this public
 repository represents the current application; the original development history
 is preserved separately in a private archive.
 
+## The homepage in November 2024
+
+![Restored rendering of the EUJobs homepage archived on 25 November 2024](docs/images/eujobs-homepage-2024-restored.png)
+
+*Restored rendering of the [Wayback Machine capture from 25 November 2024](https://web.archive.org/web/20241125213411/https://www.eujobs.co/), captured in a browser on 20 October 2026.*
+
+The archive preserves the page content and job listings, but one stylesheet is
+missing. This rendering combines that archived HTML and the surviving stylesheet
+with styles rebuilt from the nearest preserved source revision before the capture,
+using Tailwind CSS 3.4.1. Inter font files were supplied locally; analytics,
+scripts and external form actions were disabled. The disclosure strip was added
+for this image. It illustrates the recovered design, rather than claiming a
+pixel-exact screenshot taken in 2024. Listings and relative times belong to the
+archived page and are not current vacancies.
+
 ## Original collaborators
 
 Madan Park developed EUJobs with collaborators. We acknowledge the following
