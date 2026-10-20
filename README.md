@@ -57,5 +57,14 @@ CI validates this repository and has no production deployment step.
 | [API, MCP and CLI guide](AGENT_ACCESS.md) | Read-only integrations and examples |
 | [Behavior contract](BUILD_CONTRACT.md) | Required application invariants |
 | [Publication provenance](docs/PROVENANCE.md) | Snapshot origin, sanitization and verification |
+| [History and contributors](HISTORY.md) | Original collaborators, preserved development history and later rebuild |
+
+## Original collaborators
+
+The original EUJobs application included contributions from
+[Mouise Bashir](https://github.com/mouise1111) and
+[Charlene](https://github.com/charlenenicer). Their work is acknowledged in
+[the project history](HISTORY.md); the original commits are preserved separately
+with their attribution intact.
 
 This is a source snapshot of the current implementation, not an archive of the version at the time of sale. Historical Git identities, production data and private operational records are excluded. The original private development history is preserved separately.
