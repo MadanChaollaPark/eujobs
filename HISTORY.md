@@ -1,8 +1,13 @@
 # EUJobs history and contributors
 
 EUJobs has evolved through multiple implementations. The source in this public
-repository represents the current application; the original development history
-is preserved separately in a private archive.
+repository represents the current application. The original code and all 212
+historical commits are publicly browsable in
+**[eujobs-legacy](https://github.com/MadanChaollaPark/eujobs-legacy)**.
+
+[Browse the original source](https://github.com/MadanChaollaPark/eujobs-legacy/tree/original-snapshot-2025-01-21) ·
+[Mouise's commits](https://github.com/MadanChaollaPark/eujobs-legacy/commits/original-snapshot-2025-01-21/?author=mouise1111) ·
+[Charlene's commits](https://github.com/MadanChaollaPark/eujobs-legacy/commits/original-snapshot-2025-01-21/?author=charlenenicer)
 
 ## The homepage in November 2024
 
@@ -44,18 +49,20 @@ or attribute the later rewritten files to them.
 | October 2026 | A later rebuild and Azure releases form the current application's development history. |
 | 20 October 2026 | The original 212 commits were preserved unchanged in the private development repository, with an explicit history-preservation merge. The current application files were unchanged by that merge. |
 | 20 October 2026 | This public repository presents a sanitized source snapshot and case study of the current application. |
+| 20 October 2026 | The recovered 2024–2025 code and its 212 original commits were also published in the separate, read-only [eujobs-legacy archive](https://github.com/MadanChaollaPark/eujobs-legacy). |
 
 ## What is preserved
 
-The private archive retains the recovered original code, commit IDs, author and
-committer metadata, messages and parent relationships. The preservation merge
-records when the histories were joined; it does not assert uninterrupted Git
-ancestry between the original application and the rebuild.
+The public legacy archive and the private development repository both retain the
+recovered original code, commit IDs, author and committer metadata, messages and
+parent relationships. The private preservation merge records when the histories
+were joined; it does not assert uninterrupted Git ancestry between the original
+application and the rebuild.
 
-The public repository deliberately has a separate history. Original commit
-identities, historical operational material and production data are not imported
-here. Contributor credit is documented on this page without assigning old
-commits to a new author.
+This current-app repository deliberately has a separate history. The original
+commits and their attribution can be inspected in the public legacy archive;
+they have not been reassigned or folded into this snapshot's history. Current
+production development records and runtime data remain private.
 
 The recovered history does not establish the exact version delivered at sale or
 the extent of code reuse in the current implementation. See the

@@ -58,13 +58,15 @@ CI validates this repository and has no production deployment step.
 | [Behavior contract](BUILD_CONTRACT.md) | Required application invariants |
 | [Publication provenance](docs/PROVENANCE.md) | Snapshot origin, sanitization and verification |
 | [History and contributors](HISTORY.md) | Original collaborators, preserved development history and later rebuild |
+| [Original EUJobs repository](https://github.com/MadanChaollaPark/eujobs-legacy) | Public archive of the 2024–2025 code and all 212 original commits |
 
 ## Original collaborators
 
 The original EUJobs application included contributions from
 [Mouise Bashir](https://github.com/mouise1111) and
 [Charlene](https://github.com/charlenenicer). Their work is acknowledged in
-[the project history](HISTORY.md); the original commits are preserved separately
-with their attribution intact.
+[the project history](HISTORY.md). Browse their original code and contributions
+in the public **[eujobs-legacy archive](https://github.com/MadanChaollaPark/eujobs-legacy)**,
+with original attribution intact.
 
-This is a source snapshot of the current implementation, not an archive of the version at the time of sale. Historical Git identities, production data and private operational records are excluded. The original private development history is preserved separately.
+This is a source snapshot of the current implementation, not an archive of the version at the time of sale. Production data and private operational records are excluded. The recovered original application has its own public archive; current production development history remains private.
